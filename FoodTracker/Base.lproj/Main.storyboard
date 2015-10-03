@@ -108,7 +108,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="nrv-e3-reh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="JoM-ZM-9J1"/>
+                            <constraint firstItem="nrv-e3-reh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="JoM-ZM-9J1"/>
                             <constraint firstItem="nrv-e3-reh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ueg-5Q-bhR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nrv-e3-reh" secondAttribute="trailing" id="sYe-sd-xIU"/>
                         </constraints>
