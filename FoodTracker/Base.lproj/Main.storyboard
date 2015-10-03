@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oIP-n2-cy9" id="WGJ-98-x2J">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="ToW-s0-OFT">
@@ -115,15 +115,21 @@
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="CuT-D7-bEj">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="1PP-TN-1tM"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="x0Q-dt-Lhn"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="x0Q-dt-Lhn">
+                            <connections>
+                                <segue destination="Dsr-nF-m0n" kind="unwind" unwindAction="unwindToMealList:" id="el5-6h-daJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="nameTextField" destination="oBs-Ud-7XH" id="cJU-pK-PXD"/>
                         <outlet property="photoImageView" destination="2hp-oN-OLp" id="mUN-e8-17q"/>
                         <outlet property="ratingControl" destination="d3f-GJ-vdm" id="ggA-LB-XMR"/>
+                        <outlet property="saveButton" destination="x0Q-dt-Lhn" id="kNv-8c-vOP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="Dsr-nF-m0n" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="hjS-bb-i9F">
                     <connections>
                         <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="j2E-OZ-orH"/>
