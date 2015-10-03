@@ -20,7 +20,7 @@ class MealTableViewController: UITableViewController {
         let meal2 = Meal(name: "Chocolate Bread", photo: photo2, rating: 5)!
 
         let photo3 = UIImage(named: "meal3")!
-        let meal3 = Meal(name: "Meal Soup", photo: photo3, rating: 3)!
+        let meal3 = Meal(name: "Meat Soup", photo: photo3, rating: 3)!
 
         meals += [meal1, meal2, meal3]
     }
@@ -41,23 +41,29 @@ class MealTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return meals.count
     }
 
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
-        // Configure the cell...
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cellIdentifier = "MealTableViewCell"
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! MealTableViewCell
+
+        // Fetchers the appropriate meal for the data source layout.
+        let meal = meals[indexPath.row]
+        
+        cell.nameLabel.text = meal.name
+        cell.photoImageView.image = meal.photo
+        cell.ratingControl.rating = meal.rating
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
