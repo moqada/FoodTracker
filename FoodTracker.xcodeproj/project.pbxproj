@@ -16,6 +16,7 @@
 		BDA73D6A1BBFEC8E00F4AE18 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA73D691BBFEC8E00F4AE18 /* RatingControl.swift */; settings = {ASSET_TAGS = (); }; };
 		BDA73D6C1BBFFE7B00F4AE18 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA73D6B1BBFFE7B00F4AE18 /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
 		BDA73D6D1BBFFE7B00F4AE18 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA73D6B1BBFFE7B00F4AE18 /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		BDA73D6F1BC016C800F4AE18 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA73D6E1BC016C800F4AE18 /* MealTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		BDA73D601BBEC86600F4AE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA73D691BBFEC8E00F4AE18 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		BDA73D6B1BBFFE7B00F4AE18 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BDA73D6E1BC016C800F4AE18 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BDA73D491BBEC86600F4AE18 /* AppDelegate.swift */,
 				BDA73D4B1BBEC86600F4AE18 /* ViewController.swift */,
 				BDA73D4D1BBEC86600F4AE18 /* Main.storyboard */,
+				BDA73D6E1BC016C800F4AE18 /* MealTableViewCell.swift */,
 				BDA73D6B1BBFFE7B00F4AE18 /* Meal.swift */,
 				BDA73D501BBEC86600F4AE18 /* Assets.xcassets */,
 				BDA73D521BBEC86600F4AE18 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 				BDA73D4C1BBEC86600F4AE18 /* ViewController.swift in Sources */,
 				BDA73D6A1BBFEC8E00F4AE18 /* RatingControl.swift in Sources */,
 				BDA73D4A1BBEC86600F4AE18 /* AppDelegate.swift in Sources */,
+				BDA73D6F1BC016C800F4AE18 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 				BDA73D651BBEC86600F4AE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA73D661BBEC86600F4AE18 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +409,7 @@
 				BDA73D681BBEC86600F4AE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
