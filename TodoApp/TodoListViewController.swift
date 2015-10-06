@@ -14,6 +14,12 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var tableView: UITableView!
     var todoEntities: [Todo]!
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        todoEntities = Todo.MR_findAll() as? [Todo]
+        tableView.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         todoEntities = Todo.MR_findAll() as? [Todo]

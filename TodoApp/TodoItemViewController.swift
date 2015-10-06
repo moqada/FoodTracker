@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class TodoItemViewController: UIViewController {
     // MARK: Properties
@@ -40,6 +41,9 @@ class TodoItemViewController: UIViewController {
     }
 
     @IBAction func save(sender: UIBarButtonItem) {
+        let newTask: Todo = Todo.MR_createEntity() as Todo
+        newTask.item = todoField.text!
+        newTask.managedObjectContext!.MR_saveToPersistentStoreAndWait()
         navigationController!.popViewControllerAnimated(true)
     }
     
