@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		070109385D2BD731F15E5A98 /* libPods-TodoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5BBB760A9B7FA5F6C3E983 /* libPods-TodoApp.a */; };
+		BD8BB9EB1BC396C300E37B1E /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB9E91BC396C300E37B1E /* Todo+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		BD8BB9EC1BC396C300E37B1E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB9EA1BC396C300E37B1E /* Todo.swift */; settings = {ASSET_TAGS = (); }; };
 		BD8DC16C1BC35DF2009D67BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DC16B1BC35DF2009D67BC /* AppDelegate.swift */; };
 		BD8DC16E1BC35DF2009D67BC /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DC16D1BC35DF2009D67BC /* TodoListViewController.swift */; };
 		BD8DC1711BC35DF2009D67BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8DC16F1BC35DF2009D67BC /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		B5CE0AC52B9C53857CF6F092 /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoApp/Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
+		BD8BB9E91BC396C300E37B1E /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD8BB9EA1BC396C300E37B1E /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		BD8DC1681BC35DF2009D67BC /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8DC16B1BC35DF2009D67BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD8DC16D1BC35DF2009D67BC /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 		BD8DC16A1BC35DF2009D67BC /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD8BB9E91BC396C300E37B1E /* Todo+CoreDataProperties.swift */,
+				BD8BB9EA1BC396C300E37B1E /* Todo.swift */,
 				BD8DC16B1BC35DF2009D67BC /* AppDelegate.swift */,
 				BD8DC16D1BC35DF2009D67BC /* TodoListViewController.swift */,
 				BD8DC16F1BC35DF2009D67BC /* Main.storyboard */,
@@ -265,11 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8BB9EC1BC396C300E37B1E /* Todo.swift in Sources */,
 				BD8DC16E1BC35DF2009D67BC /* TodoListViewController.swift in Sources */,
 				BDF212C11BC3705F00B391D1 /* TodoItemViewController.swift in Sources */,
 				BD8DC1741BC35DF2009D67BC /* TodoApp.xcdatamodeld in Sources */,
 				BDC40F5F1BC369E100EB03F2 /* TodoListItemTableViewCell.swift in Sources */,
 				BD8DC16C1BC35DF2009D67BC /* AppDelegate.swift in Sources */,
+				BD8BB9EB1BC396C300E37B1E /* Todo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
