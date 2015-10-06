@@ -29,15 +29,27 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
+    // アイテム数を返す
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todoEntities.count
     }
-    
+
+    // アイテムセルの生成
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("TodoListItem")!
         cell.textLabel!.text = todoEntities[indexPath.row].item
         return cell
+    }
+
+    // アイテムの編集
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        // スワイプで削除
+        if editingStyle == .Delete {
+            todoEntities.removeAtIndex(indexPath.row).MR_deleteEntity()
+            NSManagedObjectContext.MR_defaultContext().MR_saveToPersistentStoreAndWait()
+            tableView.reloadData()
+        }
     }
 }
 
