@@ -40,6 +40,7 @@
 		BD8DC17F1BC35DF2009D67BC /* TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8DC1831BC35DF2009D67BC /* TodoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppTests.swift; sourceTree = "<group>"; };
 		BD8DC1851BC35DF2009D67BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC40F5D1BC3668200EB03F2 /* TodoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		EC5BBB760A9B7FA5F6C3E983 /* libPods-TodoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E85BE9039BE67A80BF6369 /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoApp/Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +103,7 @@
 				BD8DC1771BC35DF2009D67BC /* LaunchScreen.storyboard */,
 				BD8DC17A1BC35DF2009D67BC /* Info.plist */,
 				BD8DC1721BC35DF2009D67BC /* TodoApp.xcdatamodeld */,
+				BDC40F5D1BC3668200EB03F2 /* TodoApp-Bridging-Header.h */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -393,6 +395,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/moqada/work/projects/moqada/TodoApp/TodoApp/TodoApp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -405,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/moqada/work/projects/moqada/TodoApp/TodoApp/TodoApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
