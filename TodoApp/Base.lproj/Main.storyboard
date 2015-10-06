@@ -30,6 +30,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="npV-Lg-Sff" kind="show" identifier="edit" id="dkC-aF-Cq4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -131,4 +134,7 @@
             <point key="canvasLocation" x="305" y="357"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dkC-aF-Cq4"/>
+    </inferredMetricsTieBreakers>
 </document>

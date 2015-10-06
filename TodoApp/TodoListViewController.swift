@@ -30,6 +30,15 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // 編集遷移発生時の処理
+        if segue.identifier == "edit" {
+            let todoController = segue.destinationViewController as! TodoItemViewController
+            let task = todoEntities[tableView.indexPathForSelectedRow!.row]
+            todoController.task = task
+        }
+    }
+
     // アイテム数を返す
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todoEntities.count

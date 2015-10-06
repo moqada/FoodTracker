@@ -13,10 +13,13 @@ class TodoItemViewController: UIViewController {
     // MARK: Properties
     @IBOutlet weak var todoField: UITextField!
 
+    var task: Todo? = nil
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let taskTodo = task {
+            todoField.text = taskTodo.item
+        }
     }
 
     override func didReceiveMemoryWarning() {
