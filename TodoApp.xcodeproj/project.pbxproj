@@ -411,7 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/moqada/work/projects/moqada/TodoApp/TodoApp/TodoApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoApp/TodoApp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -424,7 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/moqada/work/projects/moqada/TodoApp/TodoApp/TodoApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoApp/TodoApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
