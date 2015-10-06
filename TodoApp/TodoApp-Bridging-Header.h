@@ -9,6 +9,6 @@
 #ifndef TodoApp_TodoApp_Bridging_Header_h
 #define TodoApp_TodoApp_Bridging_Header_h
 
-#import "CoreData+MagicalRecord.h"
+#import "MagicalRecord.h"
 
 #endif /* TodoApp_Bridging_Header_h */
