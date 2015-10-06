@@ -38,15 +38,28 @@ class TodoItemViewController: UIViewController {
     }
     */
 
+    func createTask() {
+        let newTask: Todo = Todo.MR_createEntity() as Todo
+        newTask.item = todoField.text!
+        newTask.managedObjectContext!.MR_saveToPersistentStoreAndWait()
+    }
+
+    func editTask() {
+        task?.item = todoField.text
+        task?.managedObjectContext!.MR_saveToPersistentStoreAndWait()
+    }
+
     // MARK: Actions
     @IBAction func cancel(sender: UIBarButtonItem) {
         navigationController!.popViewControllerAnimated(true)
     }
 
     @IBAction func save(sender: UIBarButtonItem) {
-        let newTask: Todo = Todo.MR_createEntity() as Todo
-        newTask.item = todoField.text!
-        newTask.managedObjectContext!.MR_saveToPersistentStoreAndWait()
+        if task != nil {
+            editTask()
+        } else {
+            createTask()
+        }
         navigationController!.popViewControllerAnimated(true)
     }
     

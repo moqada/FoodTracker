@@ -39,6 +39,10 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
         }
     }
 
+    func controllerDidChangeContent(controller: NSFetchedResultsController) {
+        tableView.reloadData()
+    }
+
     // アイテム数を返す
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todoEntities.count
