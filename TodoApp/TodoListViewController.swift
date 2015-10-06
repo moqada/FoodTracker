@@ -8,8 +8,10 @@
 
 import UIKit
 
-class TodoListViewController: UIViewController {
-
+class TodoListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    // MARK: Properties
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
