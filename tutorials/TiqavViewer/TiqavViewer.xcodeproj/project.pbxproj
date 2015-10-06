@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1AF8F21BC3C31200357064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AF8F11BC3C31200357064 /* AppDelegate.swift */; };
+		BD1AF8F41BC3C31200357064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AF8F31BC3C31200357064 /* ViewController.swift */; };
+		BD1AF8F71BC3C31200357064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1AF8F51BC3C31200357064 /* Main.storyboard */; };
+		BD1AF8F91BC3C31200357064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1AF8F81BC3C31200357064 /* Assets.xcassets */; };
+		BD1AF8FC1BC3C31200357064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1AF8FA1BC3C31200357064 /* LaunchScreen.storyboard */; };
+		BD1AF9071BC3C31200357064 /* TiqavViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AF9061BC3C31200357064 /* TiqavViewerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1AF9031BC3C31200357064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1AF8E61BC3C31100357064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1AF8ED1BC3C31200357064;
+			remoteInfo = TiqavViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1AF8EE1BC3C31200357064 /* TiqavViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiqavViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1AF8F11BC3C31200357064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD1AF8F31BC3C31200357064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD1AF8F61BC3C31200357064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD1AF8F81BC3C31200357064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1AF8FB1BC3C31200357064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD1AF8FD1BC3C31200357064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1AF9021BC3C31200357064 /* TiqavViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiqavViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1AF9061BC3C31200357064 /* TiqavViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiqavViewerTests.swift; sourceTree = "<group>"; };
+		BD1AF9081BC3C31200357064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1AF8EB1BC3C31200357064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AF8FF1BC3C31200357064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1AF8E51BC3C31100357064 = {
+			isa = PBXGroup;
+			children = (
+				BD1AF8F01BC3C31200357064 /* TiqavViewer */,
+				BD1AF9051BC3C31200357064 /* TiqavViewerTests */,
+				BD1AF8EF1BC3C31200357064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1AF8EF1BC3C31200357064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AF8EE1BC3C31200357064 /* TiqavViewer.app */,
+				BD1AF9021BC3C31200357064 /* TiqavViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1AF8F01BC3C31200357064 /* TiqavViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AF8F11BC3C31200357064 /* AppDelegate.swift */,
+				BD1AF8F31BC3C31200357064 /* ViewController.swift */,
+				BD1AF8F51BC3C31200357064 /* Main.storyboard */,
+				BD1AF8F81BC3C31200357064 /* Assets.xcassets */,
+				BD1AF8FA1BC3C31200357064 /* LaunchScreen.storyboard */,
+				BD1AF8FD1BC3C31200357064 /* Info.plist */,
+			);
+			path = TiqavViewer;
+			sourceTree = "<group>";
+		};
+		BD1AF9051BC3C31200357064 /* TiqavViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AF9061BC3C31200357064 /* TiqavViewerTests.swift */,
+				BD1AF9081BC3C31200357064 /* Info.plist */,
+			);
+			path = TiqavViewerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1AF8ED1BC3C31200357064 /* TiqavViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1AF90B1BC3C31200357064 /* Build configuration list for PBXNativeTarget "TiqavViewer" */;
+			buildPhases = (
+				BD1AF8EA1BC3C31200357064 /* Sources */,
+				BD1AF8EB1BC3C31200357064 /* Frameworks */,
+				BD1AF8EC1BC3C31200357064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiqavViewer;
+			productName = TiqavViewer;
+			productReference = BD1AF8EE1BC3C31200357064 /* TiqavViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1AF9011BC3C31200357064 /* TiqavViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1AF90E1BC3C31200357064 /* Build configuration list for PBXNativeTarget "TiqavViewerTests" */;
+			buildPhases = (
+				BD1AF8FE1BC3C31200357064 /* Sources */,
+				BD1AF8FF1BC3C31200357064 /* Frameworks */,
+				BD1AF9001BC3C31200357064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1AF9041BC3C31200357064 /* PBXTargetDependency */,
+			);
+			name = TiqavViewerTests;
+			productName = TiqavViewerTests;
+			productReference = BD1AF9021BC3C31200357064 /* TiqavViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1AF8E61BC3C31100357064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					BD1AF8ED1BC3C31200357064 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BD1AF9011BC3C31200357064 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BD1AF8ED1BC3C31200357064;
+					};
+				};
+			};
+			buildConfigurationList = BD1AF8E91BC3C31100357064 /* Build configuration list for PBXProject "TiqavViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1AF8E51BC3C31100357064;
+			productRefGroup = BD1AF8EF1BC3C31200357064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1AF8ED1BC3C31200357064 /* TiqavViewer */,
+				BD1AF9011BC3C31200357064 /* TiqavViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1AF8EC1BC3C31200357064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AF8FC1BC3C31200357064 /* LaunchScreen.storyboard in Resources */,
+				BD1AF8F91BC3C31200357064 /* Assets.xcassets in Resources */,
+				BD1AF8F71BC3C31200357064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AF9001BC3C31200357064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1AF8EA1BC3C31200357064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AF8F41BC3C31200357064 /* ViewController.swift in Sources */,
+				BD1AF8F21BC3C31200357064 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AF8FE1BC3C31200357064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AF9071BC3C31200357064 /* TiqavViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1AF9041BC3C31200357064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1AF8ED1BC3C31200357064 /* TiqavViewer */;
+			targetProxy = BD1AF9031BC3C31200357064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD1AF8F51BC3C31200357064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1AF8F61BC3C31200357064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD1AF8FA1BC3C31200357064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1AF8FB1BC3C31200357064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1AF9091BC3C31200357064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1AF90A1BC3C31200357064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1AF90C1BC3C31200357064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiqavViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TiqavViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD1AF90D1BC3C31200357064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiqavViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TiqavViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD1AF90F1BC3C31200357064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiqavViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TiqavViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiqavViewer.app/TiqavViewer";
+			};
+			name = Debug;
+		};
+		BD1AF9101BC3C31200357064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiqavViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TiqavViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiqavViewer.app/TiqavViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1AF8E91BC3C31100357064 /* Build configuration list for PBXProject "TiqavViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AF9091BC3C31200357064 /* Debug */,
+				BD1AF90A1BC3C31200357064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1AF90B1BC3C31200357064 /* Build configuration list for PBXNativeTarget "TiqavViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AF90C1BC3C31200357064 /* Debug */,
+				BD1AF90D1BC3C31200357064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD1AF90E1BC3C31200357064 /* Build configuration list for PBXNativeTarget "TiqavViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AF90F1BC3C31200357064 /* Debug */,
+				BD1AF9101BC3C31200357064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1AF8E61BC3C31100357064 /* Project object */;
+}
