@@ -13,6 +13,7 @@
 		BD1AF8F91BC3C31200357064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1AF8F81BC3C31200357064 /* Assets.xcassets */; };
 		BD1AF8FC1BC3C31200357064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1AF8FA1BC3C31200357064 /* LaunchScreen.storyboard */; };
 		BD1AF9071BC3C31200357064 /* TiqavViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AF9061BC3C31200357064 /* TiqavViewerTests.swift */; };
+		BD1AF9121BC3D36400357064 /* TiqavCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AF9111BC3D36400357064 /* TiqavCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BD1AF9021BC3C31200357064 /* TiqavViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiqavViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1AF9061BC3C31200357064 /* TiqavViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiqavViewerTests.swift; sourceTree = "<group>"; };
 		BD1AF9081BC3C31200357064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1AF9111BC3D36400357064 /* TiqavCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiqavCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				BD1AF8F11BC3C31200357064 /* AppDelegate.swift */,
 				BD1AF8F31BC3C31200357064 /* ViewController.swift */,
+				BD1AF9111BC3D36400357064 /* TiqavCell.swift */,
 				BD1AF8F51BC3C31200357064 /* Main.storyboard */,
 				BD1AF8F81BC3C31200357064 /* Assets.xcassets */,
 				BD1AF8FA1BC3C31200357064 /* LaunchScreen.storyboard */,
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1AF9121BC3D36400357064 /* TiqavCell.swift in Sources */,
 				BD1AF8F41BC3C31200357064 /* ViewController.swift in Sources */,
 				BD1AF8F21BC3C31200357064 /* AppDelegate.swift in Sources */,
 			);
